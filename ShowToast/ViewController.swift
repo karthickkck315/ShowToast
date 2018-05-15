@@ -12,9 +12,12 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    
   }
 
+  @IBAction func didTapShowToast(_ sender: Any) {
+    self.showToast(message:"Show Toast")
+  }
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.

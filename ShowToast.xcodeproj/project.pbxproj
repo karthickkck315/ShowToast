@@ -12,6 +12,7 @@
 		77D55AB520AAF0C700ADB263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D55AB320AAF0C700ADB263 /* Main.storyboard */; };
 		77D55AB720AAF0C700ADB263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77D55AB620AAF0C700ADB263 /* Assets.xcassets */; };
 		77D55ABA20AAF0C700ADB263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D55AB820AAF0C700ADB263 /* LaunchScreen.storyboard */; };
+		77D55AC220AAF0D200ADB263 /* ShowToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D55AC120AAF0D200ADB263 /* ShowToast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		77D55AB620AAF0C700ADB263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77D55AB920AAF0C700ADB263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77D55ABB20AAF0C700ADB263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77D55AC120AAF0D200ADB263 /* ShowToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowToast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		77D55AAE20AAF0C700ADB263 /* ShowToast */ = {
 			isa = PBXGroup;
 			children = (
+				77D55AC120AAF0D200ADB263 /* ShowToast.swift */,
 				77D55AAF20AAF0C700ADB263 /* AppDelegate.swift */,
 				77D55AB120AAF0C700ADB263 /* ViewController.swift */,
 				77D55AB320AAF0C700ADB263 /* Main.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D55AC220AAF0D200ADB263 /* ShowToast.swift in Sources */,
 				77D55AB220AAF0C700ADB263 /* ViewController.swift in Sources */,
 				77D55AB020AAF0C700ADB263 /* AppDelegate.swift in Sources */,
 			);
